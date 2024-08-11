@@ -1,1 +1,1 @@
-Это сайт про -- Гребном тренажёре 
+This is a site about -- Rowing machine
