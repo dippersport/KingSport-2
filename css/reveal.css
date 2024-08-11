@@ -1,0 +1,199 @@
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+		
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.8);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0; 
+		}
+	
+	.reveal-modal {
+		visibility: hidden;
+		top: 200px; 
+		left: 50%;
+		margin-left: -300px;
+		width: 520px;
+		background: #eee url(modal-gloss.png) no-repeat -200px -80px;
+		position: absolute;
+		z-index: 101;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		}
+		
+	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+	
+	.reveal-modal .close-reveal-modal {
+		font-size: 26px;
+		line-height: .5;
+		position: absolute;
+		top: 11px;
+		right: 11px;
+		color: #aaa;
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+		text-decoration: none;
+		} 
+		
+		
+		
+		
+.reveal-modal h2 {
+	background: #4c535b;
+	padding: 20px 0;
+	color: #FFF;
+}
+		
+		
+.reveal-modal input {
+	line-height: 20px;
+	padding: 10px 15px;
+	background: #f8f8f8;
+	border: 1px solid #CCC;
+	color: #000;
+	font-size: 1em; 
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.reveal-modal input[type="text"] {
+	margin-right: 0px;
+}
+
+.reveal-modal input[type="text"] + input[type="text"] {
+	margin-left: 5px;
+}
+
+.reveal-modal textarea {
+	line-height: 1.5em;
+	padding: 0 15px;
+	background: #f8f8f8;
+	border: 1px solid #CCC;
+	color: #000;
+	font-size: 1em; 
+	width: 506px;
+	margin-bottom: 10px;
+}
+
+.reveal-modal input[type="submit"] {
+	line-height: 20px;
+	padding: 10px 15px;
+	background: #4c535b;
+	border: 1px solid #CCC;
+	color: #FFF;
+	font-size: 1em; 
+	margin-bottom: 10px;
+	margin-right: 0;
+}
+.reveal-modal input[type="submit"]:hover {
+	background: #abbd27;
+	cursor: pointer;
+}
+
+.reveal-modal input[type="submit"] + input {
+	margin-left: 10px;
+}
+	
+		
+.order_price {
+	text-align: center;
+	background: #c9cbcd;
+	padding: 10px;
+	color: #4c535b;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+		
+.order_price {
+	text-align: center;
+	background: #c9cbcd;
+	padding: 20px 10px 10px;
+	color: #4c535b;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+		
+.order_price span {
+	font-weight: normal;
+}
+		
+
+.order_price .storage.available {
+	display: inline-block;
+	padding-left: 25px;
+	font-size: 0.6em;
+	margin: 10px 0 0 0px; 
+	background: url('../img/icons/available.png') no-repeat left top;
+}
+
+.order_price .storage.notavailable  {
+	display: inline-block;
+	padding-left: 0;
+	color: red;
+	font-size: 0.6em;
+	margin: 10px 0 0 0; 
+	background: none;
+}
+
+.price_value {
+	font-weight: bold !important;
+}
+		
+input[type="submit"].buy {
+	display: block;
+	width: 490px;
+	padding: 30px 0;
+	background: #abbd27;
+	color: #FFF;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 13px auto;
+}
+
+input[type="submit"].buy:hover {
+	background: #bdd418;
+}		
+
+.reveal-modal .done {
+	display: none;
+	width: 100%;
+	line-height: 120px;
+	font-size: 1.8em;
+	text-align: center;
+	color: #FFF;
+	background: #abbd27;
+}		
+		
+		
+		
+		
+		
+		
+	/*
+		
+	NOTES
+	
+	Close button entity is &#215;
+	
+	Example markup
+	
+	<div id="myModal" class="reveal-modal">
+		<h2>Awesome. I have it.</h2>
+		<p class="lead">Your couch.  I it's mine.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+	
+	*/

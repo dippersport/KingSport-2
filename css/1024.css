@@ -1,0 +1,45 @@
+.wrapper {
+	max-width: 1000px; 
+	margin: 0 auto;
+	position: relative;
+	padding: 70px 0;
+}
+
+section.features_plus p {
+	line-height: 1.4em;
+	font-size: 0.9em;
+}
+
+section.features_plus .image_block {
+	min-height: 450px;
+}
+
+section.features .text_block ul {
+	font-size: 0.9em;
+}
+
+section.products .product {
+	width: 310px;
+	font-size: 0.9em;
+}
+
+section.products .product .storage.available {
+	font-size: 0.9em;
+}
+
+section.skierg .text_block {
+	width: 337px;
+	padding: 45px;
+}
+
+section.skierg .product {
+	width: 427px;
+}
+section.bikeerg .text_block {
+	width: 337px;
+	padding: 45px;
+}
+
+section.bikeerg .product {
+	width: 427px;
+}
